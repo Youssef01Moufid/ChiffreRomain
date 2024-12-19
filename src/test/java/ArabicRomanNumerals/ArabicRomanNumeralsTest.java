@@ -95,6 +95,17 @@ public class ArabicRomanNumeralsTest {
     assertThat(result).isEqualTo("IV");
   }
 
+  @Test
+  public void testArabicRomanNumerals9() {
+    //GIVEN
+    //WHEN
+    String result = romanNumerals.convert(9) ;
+    //THEN
+    assertThat(result).isEqualTo("IX");
+  }
+
+
+
 
 
 
