@@ -18,6 +18,19 @@ public class ArabicRomanNumeralsTest {
       assertThat(result).isEqualTo("I");
   }
 
+  @Test
+  public void testArabicRomanNumerals2() {
+    //GIVEN
+    ArabicRomanNumerals romanNumerals = new ArabicRomanNumerals();
+
+    //WHEN
+    String result = romanNumerals.convert(2) ;
+
+    //THEN
+
+    assertThat(result).isEqualTo("II");
+  }
+
 
 
 
