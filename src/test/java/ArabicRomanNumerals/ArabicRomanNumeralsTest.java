@@ -1,0 +1,24 @@
+package ArabicRomanNumerals;
+
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.*;
+
+public class ArabicRomanNumeralsTest {
+
+  @Test
+    public void testArabicRomanNumerals1() {
+      //GIVEN
+      ArabicRomanNumerals romanNumerals = new ArabicRomanNumerals();
+
+      //WHEN
+      String result = romanNumerals.convert(1) ;
+
+      //THEN
+
+      assertThat(result).isEqualTo("I");
+  }
+
+
+
+
+}
