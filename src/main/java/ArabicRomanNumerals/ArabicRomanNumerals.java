@@ -2,12 +2,12 @@ package ArabicRomanNumerals;
 
 public class ArabicRomanNumerals {
 
-    public String convert(int i) {
+    public static String convert(int i) {
 
-        if(i == 3)
-            return "III";
-        if(i == 2)
-            return "II";
-        return "I" ;
+       String romain = "" ;
+       while (i-- > 0) {
+           romain += "I";
+       }
+       return romain;
     }
 }
