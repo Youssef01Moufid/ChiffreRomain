@@ -50,6 +50,15 @@ public class ArabicRomanNumeralsTest {
     assertThat(result).isEqualTo("X");
   }
 
+  @Test
+  public void testArabicRomanNumerals20() {
+    //GIVEN
+    //WHEN
+    String result = romanNumerals.convert(20) ;
+    //THEN
+    assertThat(result).isEqualTo("XX");
+  }
+
 
 
 
