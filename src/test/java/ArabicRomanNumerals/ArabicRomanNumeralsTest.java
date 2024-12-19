@@ -59,6 +59,37 @@ public class ArabicRomanNumeralsTest {
     assertThat(result).isEqualTo("XX");
   }
 
+  @Test
+  public void testArabicRomanNumerals11() {
+    //GIVEN
+    //WHEN
+    String result = romanNumerals.convert(11) ;
+    //THEN
+    assertThat(result).isEqualTo("XI");
+  }
+
+  @Test
+  public void testArabicRomanNumerals23() {
+    //GIVEN
+    //WHEN
+    String result = romanNumerals.convert(23) ;
+    //THEN
+    assertThat(result).isEqualTo("XXIII");
+  }
+
+  @Test
+  public void testArabicRomanNumerals5() {
+    //GIVEN
+    //WHEN
+    String result = romanNumerals.convert(5) ;
+    //THEN
+    assertThat(result).isEqualTo("V");
+  }
+
+
+
+
+
 
 
 

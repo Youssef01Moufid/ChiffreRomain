@@ -2,8 +2,8 @@ package ArabicRomanNumerals;
 
 public class ArabicRomanNumerals {
 
-     static int[] NumberArabic = {10,1};
-     static String[] chiffreRomain = {"X", "I"};
+     static int[] NumberArabic = {10,5,4,1};
+     static String[] chiffreRomain = {"X","V","I"};
 
 
     public static String convert(int i) {
