@@ -86,6 +86,14 @@ public class ArabicRomanNumeralsTest {
     assertThat(result).isEqualTo("V");
   }
 
+  @Test
+  public void testArabicRomanNumerals4() {
+    //GIVEN
+    //WHEN
+    String result = romanNumerals.convert(4) ;
+    //THEN
+    assertThat(result).isEqualTo("IV");
+  }
 
 
 

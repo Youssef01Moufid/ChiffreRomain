@@ -3,7 +3,7 @@ package ArabicRomanNumerals;
 public class ArabicRomanNumerals {
 
      static int[] NumberArabic = {10,5,4,1};
-     static String[] chiffreRomain = {"X","V","I"};
+     static String[] chiffreRomain = {"X","V","IV","I"};
 
 
     public static String convert(int i) {
