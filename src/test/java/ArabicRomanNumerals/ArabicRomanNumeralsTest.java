@@ -31,6 +31,19 @@ public class ArabicRomanNumeralsTest {
     assertThat(result).isEqualTo("II");
   }
 
+  @Test
+  public void testArabicRomanNumerals3() {
+    //GIVEN
+    ArabicRomanNumerals romanNumerals = new ArabicRomanNumerals();
+
+    //WHEN
+    String result = romanNumerals.convert(3) ;
+
+    //THEN
+
+    assertThat(result).isEqualTo("III");
+  }
+
 
 
 
