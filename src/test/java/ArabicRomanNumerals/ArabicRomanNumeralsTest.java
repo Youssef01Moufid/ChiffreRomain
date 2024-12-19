@@ -41,6 +41,15 @@ public class ArabicRomanNumeralsTest {
     assertThat(result).isEqualTo("III");
   }
 
+  @Test
+  public void testArabicRomanNumerals10() {
+    //GIVEN
+    //WHEN
+    String result = romanNumerals.convert(10) ;
+    //THEN
+    assertThat(result).isEqualTo("X");
+  }
+
 
 
 
